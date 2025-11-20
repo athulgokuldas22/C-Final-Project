@@ -1,0 +1,11 @@
+name: iot-c
+channels:
+  - conda-forge
+dependencies:
+  - cmake>=3.24
+  - make
+  - ninja
+  - pkg-config
+  - gdb
+  - gcc_linux-64
+  - gxx_linux-64
