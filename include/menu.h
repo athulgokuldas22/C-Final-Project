@@ -16,6 +16,6 @@
 
 */
 
-void_menu_run(SmartHome *home);
+void menu_run(SmartHome *home);
 
 #endif
