@@ -1,0 +1,9 @@
+name: smart_home_env
+channels:
+- defaults
+
+dependencies:
+- gcc
+- gxx
+- cmake
+- make
