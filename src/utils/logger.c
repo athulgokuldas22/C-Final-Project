@@ -11,5 +11,6 @@ void logger_append_float(const char *path, float value)
         return;
     }
 
-
+    fprintf(file, "%.3f\n", value);
+    fclose(file);
 }
