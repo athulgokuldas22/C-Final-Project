@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "light_sensor.h"
-#include "../utils/random_gen.h"   
+#include "sensors/light_sensor.h"
+#include "utils/random_gen.h"   
 
 void light_sensor_init(LightSensor *sensor)
 {

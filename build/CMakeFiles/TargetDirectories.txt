@@ -1,0 +1,3 @@
+/home/athul/CProgramming2025/C_Final_Project/smart-home-iot/build/CMakeFiles/smart_home.dir
+/home/athul/CProgramming2025/C_Final_Project/smart-home-iot/build/CMakeFiles/edit_cache.dir
+/home/athul/CProgramming2025/C_Final_Project/smart-home-iot/build/CMakeFiles/rebuild_cache.dir

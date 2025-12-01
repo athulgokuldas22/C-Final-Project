@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "motion.h"
-#include "../utils/random_gen.h"   
+#include "sensors/motion.h"
+#include "utils/random_gen.h"   
 
 void motion_init(MotionSensor *sensor)
 {

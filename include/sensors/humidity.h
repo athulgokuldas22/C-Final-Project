@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-typdef_struct
+typedef struct
 {
     float current;
     float history[100];

@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "door.h"
-#include "../utils/random_gen.h"   
+#include "sensors/door.h"
+#include "utils/random_gen.h"   
 void door_init(DoorSensor *door)
 {
     if (!door) return;

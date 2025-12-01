@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "humidity.h"
-#include "../utils/random_gen.h"   
+#include "sensors/humidity.h"
+#include "utils/random_gen.h"   
 
 
 void humidity_init(HumiditySensor *sensor)

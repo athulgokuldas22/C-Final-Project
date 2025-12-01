@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "logger.h"
+#include "utils/logger.h"
 
 void logger_append_float(const char *path, float value)
 {

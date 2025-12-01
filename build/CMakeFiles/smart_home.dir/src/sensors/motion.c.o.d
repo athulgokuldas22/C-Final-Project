@@ -1,0 +1,26 @@
+CMakeFiles/smart_home.dir/src/sensors/motion.c.o: \
+ /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/src/sensors/motion.c \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/features.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/sys/cdefs.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/wordsize.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/long-double.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h \
+ /home/athul/miniforge3/envs/smart_home_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/stddef.h \
+ /home/athul/miniforge3/envs/smart_home_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/stdarg.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__fpos64_t.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__FILE.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/FILE.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/struct_FILE.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h \
+ /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/sensors/motion.h \
+ /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/utils/random_gen.h

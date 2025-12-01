@@ -8,7 +8,7 @@
 #include "sensors/motion.h"
 #include "sensors/door.h"
 
-typdef_struct
+typedef struct
 {
     TemperatureSensor temperature;
     HumiditySensor humidity;

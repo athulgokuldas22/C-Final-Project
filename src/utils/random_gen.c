@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include "random_gen.h"
+#include "utils/random_gen.h"
 
 
 void random_init(void)

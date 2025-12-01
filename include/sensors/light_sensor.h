@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 
-typedef_struct
+typedef struct
 {
     int current;
     float history[100];

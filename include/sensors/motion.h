@@ -2,7 +2,7 @@
 #define MOTION_H
 
 
-typedef_struct
+typedef struct
 {
     int detected;
     

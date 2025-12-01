@@ -2,7 +2,7 @@
 #define DOOR_H
 
 
-typedef_struct
+typedef struct
 {
     int locked;
 

@@ -14,7 +14,7 @@ void graph_draw(const float *data, size_t count, const char *title)
     printf("\n=== %s ===\n", title);
 
     float min = FLT_MAX;
-    float max = -MAX_FLT;
+    float max = -FLT_MAX;
 
     for(size_t i = 0; i < count; i++)
     {

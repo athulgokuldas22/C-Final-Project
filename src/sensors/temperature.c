@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "temperature.h"
-#include "../utils/random_gen.h"   
+#include "sensors/temperature.h"
+#include "utils/random_gen.h"   
 
 
 void temperature_init(TemperatureSensor *sensor)
