@@ -1,7 +1,7 @@
-CMakeFiles/smart_home.dir/main.c.o: \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/main.c \
+CMakeFiles/utils_lib.dir/src/utils/random_gen.c.o: \
+ /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/src/utils/random_gen.c \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/features.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/sys/cdefs.h \
@@ -10,24 +10,13 @@ CMakeFiles/smart_home.dir/main.c.o: \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/gnu/stubs-64.h \
  /home/athul/miniforge3/envs/smart_home_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/stddef.h \
- /home/athul/miniforge3/envs/smart_home_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/stdarg.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__fpos64_t.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__FILE.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/FILE.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/struct_FILE.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdlib.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitflags.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/waitstatus.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/floatn.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/floatn-common.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/sys/types.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types.h \
+ /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/typesizes.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/clock_t.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/clockid_t.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/time_t.h \
@@ -49,24 +38,10 @@ CMakeFiles/smart_home.dir/main.c.o: \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/alloca.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-bsearch.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/core.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/pthread.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/sched.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sched.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/struct_sched_param.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/cpu-set.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/time.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/time.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/struct_tm.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/struct_itimerspec.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/locale_t.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/types/__locale_t.h \
- /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/setjmp.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/sensors/temperature.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/sensors/humidity.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/sensors/light_sensor.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/sensors/motion.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/sensors/door.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/menu.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/core.h \
  /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/utils/random_gen.h

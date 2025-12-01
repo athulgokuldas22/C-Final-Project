@@ -30,7 +30,12 @@ static void show_csv_graph(const char *path, const char *title)
         return;
     }
 
-    graph_draw(values, count, title);
+    size_t window = 50;
+    if (count > window)
+        graph_draw(&values[count - window], window, title);
+    else
+        graph_draw(values, count, title);
+
 }
 
 void menu_run(SmartHome *home)

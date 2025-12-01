@@ -1,0 +1,2 @@
+/home/athul/miniforge3/envs/smart_home_env/bin/x86_64-conda-linux-gnu-ar qc libsensor_lib.a CMakeFiles/sensor_lib.dir/src/sensors/temperature.c.o CMakeFiles/sensor_lib.dir/src/sensors/humidity.c.o CMakeFiles/sensor_lib.dir/src/sensors/light_sensor.c.o CMakeFiles/sensor_lib.dir/src/sensors/motion.c.o CMakeFiles/sensor_lib.dir/src/sensors/door.c.o
+/home/athul/miniforge3/envs/smart_home_env/bin/x86_64-conda-linux-gnu-ranlib libsensor_lib.a

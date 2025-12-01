@@ -19,7 +19,7 @@ void graph_draw(const float *data, size_t count, const char *title)
     for(size_t i = 0; i < count; i++)
     {
         if (data[i] < min) min = data[i];
-        if (data[i] < max) max = data[i];
+        if (data[i] > max) max = data[i];
     }
     if (min == max)
     {
@@ -32,7 +32,7 @@ void graph_draw(const float *data, size_t count, const char *title)
     {
         float threshold = min + row * step;
 
-        printf("6.2f | ", threshold);
+        printf("%6.2f | ", threshold);
 
         for (size_t i = 0; i < count; i++) 
         {
@@ -52,12 +52,16 @@ void graph_draw(const float *data, size_t count, const char *title)
     printf("\n");
 
 
-    printf("        ");
-    for (size_t i = 0; i < count; i++) 
+   printf("        ");
+    for (size_t i = 0; i < count; i++)
     {
-        printf("t ");
+        if (i % 3 == 0)          
+            printf("%zu", i);   
+        else
+            printf("   ");
     }
     printf("\n");
+
 }
     
 

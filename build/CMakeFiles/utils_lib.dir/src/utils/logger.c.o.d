@@ -1,5 +1,5 @@
-CMakeFiles/smart_home.dir/src/utils/csv_reader.c.o: \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/src/utils/csv_reader.c \
+CMakeFiles/utils_lib.dir/src/utils/logger.c.o: \
+ /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/src/utils/logger.c \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/stdio.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \
@@ -22,4 +22,4 @@ CMakeFiles/smart_home.dir/src/utils/csv_reader.c.o: \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/sys_errlist.h \
  /home/athul/miniforge3/envs/smart_home_env/x86_64-conda-linux-gnu/sysroot/usr/include/bits/stdio.h \
- /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/utils/csv_reader.h
+ /home/athul/CProgramming2025/C_Final_Project/smart-home-iot/include/utils/logger.h

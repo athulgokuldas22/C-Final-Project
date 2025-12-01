@@ -117,6 +117,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sensor_lib
+
+# Build rule for target.
+sensor_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor_lib
+.PHONY : sensor_lib
+
+# fast build rule for target.
+sensor_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/build
+.PHONY : sensor_lib/fast
+
+#=============================================================================
+# Target rules for targets named utils_lib
+
+# Build rule for target.
+utils_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_lib
+.PHONY : utils_lib
+
+# fast build rule for target.
+utils_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/build
+.PHONY : utils_lib/fast
+
+#=============================================================================
 # Target rules for targets named smart_home
 
 # Build rule for target.
@@ -230,7 +256,7 @@ src/sensors/door.o: src/sensors/door.c.o
 
 # target to build an object file
 src/sensors/door.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/door.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/door.c.o
 .PHONY : src/sensors/door.c.o
 
 src/sensors/door.i: src/sensors/door.c.i
@@ -238,7 +264,7 @@ src/sensors/door.i: src/sensors/door.c.i
 
 # target to preprocess a source file
 src/sensors/door.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/door.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/door.c.i
 .PHONY : src/sensors/door.c.i
 
 src/sensors/door.s: src/sensors/door.c.s
@@ -246,7 +272,7 @@ src/sensors/door.s: src/sensors/door.c.s
 
 # target to generate assembly for a file
 src/sensors/door.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/door.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/door.c.s
 .PHONY : src/sensors/door.c.s
 
 src/sensors/humidity.o: src/sensors/humidity.c.o
@@ -254,7 +280,7 @@ src/sensors/humidity.o: src/sensors/humidity.c.o
 
 # target to build an object file
 src/sensors/humidity.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/humidity.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/humidity.c.o
 .PHONY : src/sensors/humidity.c.o
 
 src/sensors/humidity.i: src/sensors/humidity.c.i
@@ -262,7 +288,7 @@ src/sensors/humidity.i: src/sensors/humidity.c.i
 
 # target to preprocess a source file
 src/sensors/humidity.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/humidity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/humidity.c.i
 .PHONY : src/sensors/humidity.c.i
 
 src/sensors/humidity.s: src/sensors/humidity.c.s
@@ -270,7 +296,7 @@ src/sensors/humidity.s: src/sensors/humidity.c.s
 
 # target to generate assembly for a file
 src/sensors/humidity.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/humidity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/humidity.c.s
 .PHONY : src/sensors/humidity.c.s
 
 src/sensors/light_sensor.o: src/sensors/light_sensor.c.o
@@ -278,7 +304,7 @@ src/sensors/light_sensor.o: src/sensors/light_sensor.c.o
 
 # target to build an object file
 src/sensors/light_sensor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/light_sensor.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/light_sensor.c.o
 .PHONY : src/sensors/light_sensor.c.o
 
 src/sensors/light_sensor.i: src/sensors/light_sensor.c.i
@@ -286,7 +312,7 @@ src/sensors/light_sensor.i: src/sensors/light_sensor.c.i
 
 # target to preprocess a source file
 src/sensors/light_sensor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/light_sensor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/light_sensor.c.i
 .PHONY : src/sensors/light_sensor.c.i
 
 src/sensors/light_sensor.s: src/sensors/light_sensor.c.s
@@ -294,7 +320,7 @@ src/sensors/light_sensor.s: src/sensors/light_sensor.c.s
 
 # target to generate assembly for a file
 src/sensors/light_sensor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/light_sensor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/light_sensor.c.s
 .PHONY : src/sensors/light_sensor.c.s
 
 src/sensors/motion.o: src/sensors/motion.c.o
@@ -302,7 +328,7 @@ src/sensors/motion.o: src/sensors/motion.c.o
 
 # target to build an object file
 src/sensors/motion.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/motion.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/motion.c.o
 .PHONY : src/sensors/motion.c.o
 
 src/sensors/motion.i: src/sensors/motion.c.i
@@ -310,7 +336,7 @@ src/sensors/motion.i: src/sensors/motion.c.i
 
 # target to preprocess a source file
 src/sensors/motion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/motion.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/motion.c.i
 .PHONY : src/sensors/motion.c.i
 
 src/sensors/motion.s: src/sensors/motion.c.s
@@ -318,7 +344,7 @@ src/sensors/motion.s: src/sensors/motion.c.s
 
 # target to generate assembly for a file
 src/sensors/motion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/motion.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/motion.c.s
 .PHONY : src/sensors/motion.c.s
 
 src/sensors/temperature.o: src/sensors/temperature.c.o
@@ -326,7 +352,7 @@ src/sensors/temperature.o: src/sensors/temperature.c.o
 
 # target to build an object file
 src/sensors/temperature.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/temperature.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/temperature.c.o
 .PHONY : src/sensors/temperature.c.o
 
 src/sensors/temperature.i: src/sensors/temperature.c.i
@@ -334,7 +360,7 @@ src/sensors/temperature.i: src/sensors/temperature.c.i
 
 # target to preprocess a source file
 src/sensors/temperature.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/temperature.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/temperature.c.i
 .PHONY : src/sensors/temperature.c.i
 
 src/sensors/temperature.s: src/sensors/temperature.c.s
@@ -342,7 +368,7 @@ src/sensors/temperature.s: src/sensors/temperature.c.s
 
 # target to generate assembly for a file
 src/sensors/temperature.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/sensors/temperature.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sensor_lib.dir/build.make CMakeFiles/sensor_lib.dir/src/sensors/temperature.c.s
 .PHONY : src/sensors/temperature.c.s
 
 src/utils/csv_reader.o: src/utils/csv_reader.c.o
@@ -350,7 +376,7 @@ src/utils/csv_reader.o: src/utils/csv_reader.c.o
 
 # target to build an object file
 src/utils/csv_reader.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/csv_reader.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/csv_reader.c.o
 .PHONY : src/utils/csv_reader.c.o
 
 src/utils/csv_reader.i: src/utils/csv_reader.c.i
@@ -358,7 +384,7 @@ src/utils/csv_reader.i: src/utils/csv_reader.c.i
 
 # target to preprocess a source file
 src/utils/csv_reader.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/csv_reader.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/csv_reader.c.i
 .PHONY : src/utils/csv_reader.c.i
 
 src/utils/csv_reader.s: src/utils/csv_reader.c.s
@@ -366,7 +392,7 @@ src/utils/csv_reader.s: src/utils/csv_reader.c.s
 
 # target to generate assembly for a file
 src/utils/csv_reader.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/csv_reader.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/csv_reader.c.s
 .PHONY : src/utils/csv_reader.c.s
 
 src/utils/logger.o: src/utils/logger.c.o
@@ -374,7 +400,7 @@ src/utils/logger.o: src/utils/logger.c.o
 
 # target to build an object file
 src/utils/logger.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/logger.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/logger.c.o
 .PHONY : src/utils/logger.c.o
 
 src/utils/logger.i: src/utils/logger.c.i
@@ -382,7 +408,7 @@ src/utils/logger.i: src/utils/logger.c.i
 
 # target to preprocess a source file
 src/utils/logger.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/logger.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/logger.c.i
 .PHONY : src/utils/logger.c.i
 
 src/utils/logger.s: src/utils/logger.c.s
@@ -390,7 +416,7 @@ src/utils/logger.s: src/utils/logger.c.s
 
 # target to generate assembly for a file
 src/utils/logger.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/logger.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/logger.c.s
 .PHONY : src/utils/logger.c.s
 
 src/utils/random_gen.o: src/utils/random_gen.c.o
@@ -398,7 +424,7 @@ src/utils/random_gen.o: src/utils/random_gen.c.o
 
 # target to build an object file
 src/utils/random_gen.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/random_gen.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/random_gen.c.o
 .PHONY : src/utils/random_gen.c.o
 
 src/utils/random_gen.i: src/utils/random_gen.c.i
@@ -406,7 +432,7 @@ src/utils/random_gen.i: src/utils/random_gen.c.i
 
 # target to preprocess a source file
 src/utils/random_gen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/random_gen.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/random_gen.c.i
 .PHONY : src/utils/random_gen.c.i
 
 src/utils/random_gen.s: src/utils/random_gen.c.s
@@ -414,7 +440,7 @@ src/utils/random_gen.s: src/utils/random_gen.c.s
 
 # target to generate assembly for a file
 src/utils/random_gen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/src/utils/random_gen.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils_lib.dir/build.make CMakeFiles/utils_lib.dir/src/utils/random_gen.c.s
 .PHONY : src/utils/random_gen.c.s
 
 # Help Target
@@ -425,7 +451,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... sensor_lib"
 	@echo "... smart_home"
+	@echo "... utils_lib"
 	@echo "... src/core.o"
 	@echo "... src/core.i"
 	@echo "... src/core.s"
