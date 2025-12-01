@@ -81,7 +81,6 @@ void smart_home_start(SmartHome *home)
     pthread_create(&home->humidity_thread,    NULL, humidity_thread_fn,    home);
     pthread_create(&home->light_thread,       NULL, light_thread_fn,       home);
     pthread_create(&home->motion_thread,      NULL, motion_thread_fn,      home);
-    pthread_create(&home->door_thread,        NULL, door_thread_fn,        home);
 }
 
 void smart_home_shutdown(SmartHome *home)
@@ -94,7 +93,6 @@ void smart_home_shutdown(SmartHome *home)
     pthread_join(home->humidity_thread,    NULL);
     pthread_join(home->light_thread,       NULL);
     pthread_join(home->motion_thread,      NULL);
-    pthread_join(home->door_thread,        NULL);
 
     printf("All sensor threads stopped.\n");
 }

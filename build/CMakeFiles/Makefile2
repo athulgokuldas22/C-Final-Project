@@ -152,8 +152,8 @@ CMakeFiles/utils_lib.dir/clean:
 # Target rules for target CMakeFiles/smart_home.dir
 
 # All Build rule for target.
-CMakeFiles/smart_home.dir/all: CMakeFiles/sensor_lib.dir/all
 CMakeFiles/smart_home.dir/all: CMakeFiles/utils_lib.dir/all
+CMakeFiles/smart_home.dir/all: CMakeFiles/sensor_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smart_home.dir/build.make CMakeFiles/smart_home.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/athul/CProgramming2025/C_Final_Project/smart-home-iot/build/CMakeFiles --progress-num=7,8,9,10,11 "Built target smart_home"

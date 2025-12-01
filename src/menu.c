@@ -17,7 +17,11 @@ static void show_memory_graph(const float *history, size_t count, const char *ti
         printf("No data available for %s yet.\n", title);
         return;
     }
-    graph_draw(history, count, title);
+    size_t window = 40;
+    if (count > window)
+        graph_draw(&history[count-window], window, title);
+    else
+        graph_draw(history, count, title);
 }
 
 static void show_csv_graph(const char *path, const char *title)

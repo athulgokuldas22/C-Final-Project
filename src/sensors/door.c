@@ -11,7 +11,6 @@ void door_update(DoorSensor *door)
 {
     if (!door) return;
 
-    door->locked = random_int(0, 1);
 }
 
 void door_print(const DoorSensor *door)

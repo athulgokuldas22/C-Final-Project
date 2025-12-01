@@ -8,60 +8,54 @@ void graph_draw(const float *data, size_t count, const char *title)
 {
     if (!data || count == 0)
     {
-        printf("No data to graph. \n");
+        printf("No data to graph.\n");
         return;
     }
+
     printf("\n=== %s ===\n", title);
 
     float min = FLT_MAX;
     float max = -FLT_MAX;
 
-    for(size_t i = 0; i < count; i++)
+    for (size_t i = 0; i < count; i++)
     {
         if (data[i] < min) min = data[i];
         if (data[i] > max) max = data[i];
     }
-    if (min == max)
-    {
-        max = min + 1.0f;
-    }
-    float range = max - min;
-    float step = range / GRAPH_HEIGHT;
 
-    for(int row = GRAPH_HEIGHT; row >= 0; row --)
+    if (min == max)
+        max = min + 1.0f;
+
+    float range = max - min;
+    float step  = range / GRAPH_HEIGHT;
+
+    for (int row = GRAPH_HEIGHT; row >= 0; row--)
     {
         float threshold = min + row * step;
-
         printf("%6.2f | ", threshold);
 
-        for (size_t i = 0; i < count; i++) 
+        for (size_t i = 0; i < count; i++)
         {
             if (data[i] >= threshold)
-                printf("* ");
+                printf("*  ");   
             else
-                printf("  ");
+                printf("   ");   
         }
         printf("\n");
     }
 
     printf("        ");
-    for (size_t i = 0; i < count; i++) 
-    {
-        printf("--");
-    }
+    for (size_t i = 0; i < count; i++)
+        printf("---");          
     printf("\n");
 
-
-   printf("        ");
+    printf("        ");
     for (size_t i = 0; i < count; i++)
     {
-        if (i % 3 == 0)          
-            printf("%zu", i);   
+        if (i % 3 == 0)
+            printf("%3zu", i);  
         else
             printf("   ");
     }
     printf("\n");
-
 }
-    
-
